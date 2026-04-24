@@ -458,7 +458,7 @@ class TelaPrincipal(tk.Frame):
         pad = {"bg": COR_BRANCO, "padx": 16, "pady": 6, "fill": "x"}
 
         # Itens
-        fi = tk.Frame(dir_, bg=COR_BRANCO); fi.pack(**{"bg": COR_BRANCO, "fill": "x", "padx": 16, "pady": 8})
+        fi = tk.Frame(dir_, bg=COR_BRANCO); fi.pack(**{ "fill": "x", "padx": 16, "pady": 8})
         tk.Label(fi, text="Itens:", bg=COR_BRANCO, font=("Helvetica", 11)).pack(side="left")
         self.lbl_itens = tk.Label(fi, text="0", bg=COR_BRANCO,
                                    font=("Helvetica", 11, "bold"), fg=COR_AZUL_CLARO)
